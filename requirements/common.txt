@@ -15,8 +15,8 @@ Django==1.8.7
 # sha256: Q0tOYjCEKLDoP7zRzruIU76yMCN7GyNIQGP88f9hC24
 celery==3.1.19
 
-# sha256: QGyfTK0dEawHskWuIV9tjuEn22PoMx4MhxCLuvF5HI4
-kombu==3.0.32
+# sha256: QWVcj3z6wJr_p0p5j6dBbyGGRvOyA2AXR8GHBPaxrWw
+https://github.com/edmorley/kombu/archive/librabbitmq-tls.tar.gz#egg=kombu==3.0.32dev
 
 # sha256: QorI8yGcePsEzgWJXV3_m9gTwFqaeSLFPch5zTKhJJM
 simplejson==3.8.1
@@ -43,6 +43,10 @@ pytz==2015.7
 amqp==1.4.8
 # sha256: N4Ethjya0-NcBzTELgvwMgzow77YLNIK1UyzTRWBV7o
 anyjson==0.3.3
+
+# Celery/Kombu optional extra for improved performance over amqp.
+# sha256: YEoia5_j-eQ5NTcCpzHyo5z3cYguaLygIMsiTZuZDEk
+librabbitmq==1.6.1
 
 # Required by mozlog
 # sha256: 7cVxMGHxCWYEi_a0DZpRSzgeC6hJxk4DTE72wYR9MAc
